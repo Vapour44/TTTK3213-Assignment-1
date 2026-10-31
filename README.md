@@ -25,7 +25,7 @@ The workbook contains 541,909 transaction lines and eight original fields: `Invo
 ## Files
 
 ```text
-TTTK3213-Assignment-1/
+Assignment-1-Data-Profiling/
 ├── Assignment1_Data_Profiling.ipynb  # Full report and runnable code
 ├── README.md                          # Project and run instructions
 ├── requirements.txt                   # Python dependencies
