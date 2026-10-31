@@ -25,7 +25,7 @@ The workbook contains 541,909 transaction lines and eight original fields: `Invo
 ## Files
 
 ```text
-Assignment-1-Data-Profiling/
+TTTK3213-Assignment-1/
 ├── Assignment1_Data_Profiling.ipynb  # Full report and runnable code
 ├── README.md                          # Project and run instructions
 ├── requirements.txt                   # Python dependencies
@@ -54,5 +54,4 @@ If the workbook is not present after cloning, the first code cell downloads the 
 
 ## Assignment coverage
 
-The notebook includes a 2–3 sentence scenario; source URL, download method and field meanings; raw shape, sample, types, summary, missingness and duplicates; reasoned missing-value and IQR outlier handling; transaction, text, date, price and duplicate checks; three labeled diagnostic figures; CustomerID privacy and country-level bias discussion; a calculated issue summary and before/after comparison; and an explicit fitness-for-purpose conclusion.
-
+The notebook includes a 2–3 sentence scenario; source URL, download method and field meanings; raw shape, sample, types, summary, missingness (including the disguised `Unspecified` country placeholder) and duplicates; reasoned missing-value handling; IQR outlier detection followed by inspection of the most extreme rows and classification of outliers (same-day cancellation reversals, non-product/accounting stock codes, and genuine wholesale extremes kept uncapped); data-type fixes, stock-code case normalization, canonical product descriptions, country-label standardization and invalid-value rules; four labeled diagnostic figures (raw outlier boxplots, missing values, country coverage, and post-handling distributions); CustomerID privacy and country-level bias discussion; a calculated issue summary, exclusion breakdown and before/after comparison; and an explicit fitness-for-purpose conclusion.
